@@ -1,0 +1,38 @@
+carmafia/
+│
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── responsive.css
+│   ├── js/
+│   │   ├── jquery.min.js
+│   │   ├── script.js
+│   │   └── superfish.js
+│   └── images/
+│       └── ... (all your images)
+│
+├── config/
+│   └── db.php
+│
+├── includes/
+│   ├── head.php
+│   ├── header.php
+│   ├── footer.php
+│   └── ... (any reusable PHP components)
+│
+├── templates/
+│   └── ... (optional: for HTML/PHP template files)
+│
+├── pages/
+│   ├── index.php
+│   ├── emicalculator.php
+│   ├── offers.php
+│   ├── news.php
+│   ├── compare.php
+│   ├── Gallery.php
+│   ├── videos.php
+│   └── ... (other pages)
+│
+├── carmafia.sql
+│
+└── .htaccess (optional, for URL rewriting)

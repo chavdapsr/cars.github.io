@@ -1,0 +1,19 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# If the requested file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Route all other requests to pages/index.php (for pretty URLs)
+RewriteRule ^([a-zA-Z0-9_-]+)$ pages/$1.php [L,QSA]
+
+# Optional: Set default index file
+DirectoryIndex pages/index.php
+
+# Optional: Deny access to config folder
+<Directory "config">
+    Order allow,deny
+    Deny from all
+</Directory>

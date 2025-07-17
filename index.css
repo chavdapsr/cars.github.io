@@ -1,0 +1,66 @@
+﻿img
+{
+	display: block;
+	margin: 0px;
+}
+
+.content_title
+{
+	position: absolute;
+	padding: 50px 40px 50px 80px;
+	background: linear-gradient(90deg, rgba(255,215,0, 0.3) 0%, rgba(255,215,0, 0.2) 25%, rgba(255,215,0, 0.1) 75%, rgba(255, 255, 255, 0.3) 100%);
+	border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+    z-index: 100;
+	font-size: 22px;
+	margin-left: -60px;
+	-webkit-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	-moz-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	-ms-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+}
+
+.content_title .text
+{   color:#BCC6CC;
+	-webkit-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	-moz-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	-ms-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+}
+
+.content_slider
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery_content
+{
+	overflow: hidden;
+	margin-left: -170px;
+	
+}
+
+.gallery_item
+{
+	float: left;
+	overflow: hidden;
+	vertical-align: top;
+		-webkit-transition: width 500ms;
+	-moz-transition: width 500ms;
+	-o-transition: width 500ms;
+	transition: width 500ms;
+	-webkit-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	-moz-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	-ms-transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+	transform: translate3d(0, 0, 0) skew(-20deg, 0deg);
+}
+
+.gallery_item img
+{
+	position: relative;
+	-webkit-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	-moz-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	-ms-transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+	transform: translate3d(0, 0, 0) skew(20deg, 0deg);
+}

@@ -1,0 +1,27 @@
+﻿ body {
+ 	
+ 	 	background-color:gray;
+        background: transparent;
+        -ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#77ffffff, endColorstr=#77ffffff)"; 
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#77ffffff, endColorstr=#77ffffff); 
+        zoom: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ /* tables still need 'cellspacing="0"' in the markup */
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+ caption, th, td {
+ 	font-weight: normal;
+ 	text-align: left;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: "";
+ }
+ blockquote, q {
+ 	quotes: "" "";
+ }
