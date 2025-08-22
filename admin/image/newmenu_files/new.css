@@ -1,0 +1,43 @@
+body
+{
+    background-color:#fff;
+}
+*
+{margin: 0; padding: 0;}
+
+.d1
+{
+
+    height:124%;
+    width: 20%;
+    float: left;
+    border-right: groove;
+}
+.d11
+{
+    color:black;
+    margin-top: 30%;
+    margin-left: 25%;
+
+}
+
+.drp
+{
+    width: 65%;
+    height: 100%;
+    
+    margin-left: 20%;
+    padding: 5%;
+}
+.drp1
+{
+    width: 99%;
+    height: 20%;
+    font-family:serif;
+    color: black;
+    word-spacing:0px;;
+    font-size: 20PX;
+    padding-left: 2%;
+    margin-top: 2%;;
+    
+}

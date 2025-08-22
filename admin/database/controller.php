@@ -1,0 +1,39 @@
+<?php
+    class req
+    {
+        function ins()
+        {
+            if(isset($_REQUEST['j']))
+            {
+   
+        //$a1=$_REQUEST['fd'];
+            $a2=$_REQUEST['cd'];
+       $x=$_REQUEST['cn'];
+       $p=$_REQUEST['mod'];
+       $y=$_REQUEST['mn'];
+       $s=$_REQUEST['st'];
+       $z=$_REQUEST['mt'];
+       $a3=$_REQUEST['wd'];
+       $a4=$_REQUEST['hg'];
+       $a5=$_REQUEST['ln'];
+       $a6=$_REQUEST['grc'];
+       $a7=$_REQUEST['ftyp'];
+       $a8=$_REQUEST['milc'];
+       $a9=$_REQUEST['milh'];
+       $a10=$_REQUEST['seat'];
+       $a11=$_REQUEST['eng'];
+       $a12=$_REQUEST['fuel'];
+       $a13=$_REQUEST['transm'];
+       $a14=$_REQUEST['engdes'];
+       $a15=$_REQUEST['max'];
+       $a16=$_REQUEST['val'];
+       $a17=$_REQUEST['pow'];
+       $a18=$_REQUEST['cyl'];
+       $a19=$_REQUEST['com'];
+       $a20=$_REQUEST['infr'];
+       $a21=$_REQUEST['exfr'];
+       $a22=$_REQUEST['ent'];
+       $a23=$_REQUEST['saft'];
+   }
+        }
+?>

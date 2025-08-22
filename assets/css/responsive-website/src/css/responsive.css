@@ -1,0 +1,128 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .banner-top, .auto-style9, .header_bottom_right_images, .content-wrapper, .let1, .newrew1, .about_wrapper1, .auto-style7 {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .grid_1_of_3 {
+        width: 100% !important;
+        margin-bottom: 20px;
+        float: none !important;
+    }
+    .categories, .list-categories, .first-list {
+        width: 100% !important;
+        float: none !important;
+    }
+    .footer-bg, .auto-style3 {
+        width: 100% !important;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner-top, .auto-style9, .header_bottom_right_images, .content-wrapper, .let1, .newrew1, .about_wrapper1, .auto-style7 {
+        width: 95% !important;
+        margin: 0 auto !important;
+    }
+    .grid_1_of_3 {
+        width: 48% !important;
+        margin: 1% !important;
+        float: left !important;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    /* You can keep your current desktop styles or add overrides here */
+}/response-website/responsive-website/src/css/responsive.css
+
+/* Responsive Styles */
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .header {
+        text-align: center;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        text-align: left;
+        padding: 30px 0;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        text-align: left;
+        padding: 40px 0;
+    }
+}
